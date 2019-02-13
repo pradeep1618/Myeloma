@@ -21,7 +21,7 @@ public class TC003 extends Browser
 		test= extent.createTest(" About Me ");
 		Login sin= new Login();
 		AboutMe mi = new AboutMe();
-	  	sin.signIn(PatientCreate.newname, "123456789",false);
+	  	sin.signIn(PatientCreate.newname, "987654321",false);
 	  	mi.me(Aboutme.firstName, Aboutme.tMiddleName, Aboutme.tlastName, "77357");
 	  	
 		
