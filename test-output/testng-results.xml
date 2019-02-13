@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17163" started-at="2019-02-11T12:45:27Z" finished-at="2019-02-11T12:45:44Z">
+  <suite name="Default suite" duration-ms="18199" started-at="2019-02-13T05:35:36Z" finished-at="2019-02-13T05:35:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17163" started-at="2019-02-11T12:45:27Z" finished-at="2019-02-11T12:45:44Z">
+    <test name="Default test" duration-ms="18199" started-at="2019-02-13T05:35:36Z" finished-at="2019-02-13T05:35:54Z">
       <class name="testCases.TC001">
-        <test-method status="PASS" signature="repos()[pri:0, instance:testCases.TC001@343f4d3d]" name="repos" is-config="true" duration-ms="236" started-at="2019-02-11T12:45:27Z" finished-at="2019-02-11T12:45:27Z">
+        <test-method status="PASS" signature="repos()[pri:0, instance:testCases.TC001@343f4d3d]" name="repos" is-config="true" duration-ms="338" started-at="2019-02-13T05:35:35Z" finished-at="2019-02-13T05:35:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- repos -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.TC001@343f4d3d]" name="beforeClass" is-config="true" duration-ms="14212" started-at="2019-02-11T12:45:27Z" finished-at="2019-02-11T12:45:41Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.TC001@343f4d3d]" name="beforeClass" is-config="true" duration-ms="15393" started-at="2019-02-13T05:35:36Z" finished-at="2019-02-13T05:35:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Loginto()[pri:0, instance:testCases.TC001@343f4d3d]" name="Loginto" duration-ms="1487" started-at="2019-02-11T12:45:41Z" finished-at="2019-02-11T12:45:43Z">
+        <test-method status="PASS" signature="Loginto()[pri:0, instance:testCases.TC001@343f4d3d]" name="Loginto" duration-ms="1554" started-at="2019-02-13T05:35:51Z" finished-at="2019-02-13T05:35:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loginto -->
-        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:testCases.TC001@343f4d3d]" name="result" is-config="true" duration-ms="15" started-at="2019-02-11T12:45:43Z" finished-at="2019-02-11T12:45:43Z">
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:testCases.TC001@343f4d3d]" name="result" is-config="true" duration-ms="15" started-at="2019-02-13T05:35:53Z" finished-at="2019-02-13T05:35:53Z">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- result -->
-        <test-method status="PASS" signature="quite()[pri:0, instance:testCases.TC001@343f4d3d]" name="quite" is-config="true" duration-ms="1428" started-at="2019-02-11T12:45:43Z" finished-at="2019-02-11T12:45:44Z">
+        <test-method status="PASS" signature="quite()[pri:0, instance:testCases.TC001@343f4d3d]" name="quite" is-config="true" duration-ms="1206" started-at="2019-02-13T05:35:53Z" finished-at="2019-02-13T05:35:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quite -->
