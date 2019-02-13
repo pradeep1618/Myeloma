@@ -22,7 +22,7 @@ public class TC002 extends Browser
 		test= extent.createTest(" Create Account ");
 		Logout out = new Logout();
 		CreateAccount create = new CreateAccount();
-		create.signUp(true, false, "987654321", "987654321", "http://www.yopmail.com");
+		create.signUp(true, false, "123456789", "123456789", "http://www.yopmail.com");
 		out.logout();
 		
 		
