@@ -21,11 +21,11 @@ public static boolean newu;
 	 * @param url
 	 * @param userName
 	 * @param password
-	 * @throws InterruptedException
-	 * @throws AWTException
+	 * @throws Exception 
 	 */
-	public void signIn(String userName, String password, boolean newu) throws InterruptedException, AWTException
+	public void signIn(String userName, String password, boolean newu) throws Exception
 	{
+		  
 		  ActionDriver driver1 = new ActionDriver();
 		  driver1.waitUntilVisibilityOfElement(PatientLogin.signLnk, 1000);
 		  driver1.click(PatientLogin.signLnk);

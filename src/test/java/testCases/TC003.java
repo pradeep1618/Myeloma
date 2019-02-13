@@ -16,7 +16,7 @@ public class TC003 extends Browser
 	 * Please change the boolean value to true if you are using a new registered user to sign in
 	 */
 	@Test (priority=1)
-	public void aboutMe() throws InterruptedException, AWTException
+	public void aboutMe() throws Exception
 	{
 		test= extent.createTest(" About Me ");
 		Login sin= new Login();

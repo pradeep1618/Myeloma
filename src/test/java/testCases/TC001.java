@@ -1,6 +1,5 @@
 package testCases;
 
-import java.awt.AWTException;
 import org.testng.annotations.Test;
 import commonFun.Login;
 import config.Browser;
@@ -16,8 +15,9 @@ public class TC001 extends Browser
 {
 	
   @Test	
-  public void Loginto() throws InterruptedException, AWTException 
+  public void Loginto() throws Exception 
   {
+	 
 	test= extent.createTest(" Login ");
 	Login sin= new Login();
   	sin.signIn("Cassandra", "123456789", false);
