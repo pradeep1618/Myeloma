@@ -1,13 +1,9 @@
 package commonFun;
 
-import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
-
-import org.testng.Assert;
 
 import config.Browser;
 import customAct.ActionDriver;
-import objectRepo.HomePage;
 import objectRepo.PatientCreate;
 import objectRepo.PatientLogin;
 
