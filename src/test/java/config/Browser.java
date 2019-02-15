@@ -85,12 +85,10 @@ public class Browser {
   }
   
   @AfterClass
-  public void quite() throws Exception
+  public void close() throws Exception
   {
 	  extent.flush();
 	  driver.quit();
   }
-
-  
-
+ 
 }

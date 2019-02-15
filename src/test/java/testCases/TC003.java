@@ -1,7 +1,5 @@
 package testCases;
 
-import java.awt.AWTException;
-
 import org.testng.annotations.Test;
 
 import commonFun.Login;
