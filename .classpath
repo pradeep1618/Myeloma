@@ -8,7 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
-			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -23,6 +22,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/DayUsers/Pradeep Reddy/Backup/Softwares/poi-ooxml-3.9.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

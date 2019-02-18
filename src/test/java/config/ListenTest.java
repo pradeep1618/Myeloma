@@ -8,16 +8,8 @@ import org.testng.ITestResult;
 
 public class ListenTest implements ITestListener{
 
-	public void onFinish(ITestContext result) {
+	public void onFinish(ITestContext arg0) {
 		// TODO Auto-generated method stub
-		try 
-		{
-			ScreenIMG.screen(result.getName());
-		} catch (IOException e) 
-		{
-			
-			e.printStackTrace();
-		}
 		
 	}
 
@@ -26,16 +18,8 @@ public class ListenTest implements ITestListener{
 		
 	}
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+	public void onTestFailedButWithinSuccessPercentage(ITestResult arg0) {
 		// TODO Auto-generated method stub
-		try 
-		{
-			ScreenIMG.screen(result.getName());
-		} catch (IOException e) 
-		{
-			
-			e.printStackTrace();
-		}
 		
 	}
 

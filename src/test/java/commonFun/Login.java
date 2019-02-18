@@ -1,9 +1,13 @@
 package commonFun;
 
+import java.awt.AWTException;
 import java.util.concurrent.TimeUnit;
+
+import org.testng.Assert;
 
 import config.Browser;
 import customAct.ActionDriver;
+import objectRepo.HomePage;
 import objectRepo.PatientCreate;
 import objectRepo.PatientLogin;
 
@@ -17,11 +21,11 @@ public static boolean newu;
 	 * @param url
 	 * @param userName
 	 * @param password
-	 * @throws Exception 
+	 * @throws InterruptedException
+	 * @throws AWTException
 	 */
-	public void signIn(String userName, String password, boolean newu) throws Exception
+	public void signIn(String userName, String password, boolean newu) throws InterruptedException, AWTException
 	{
-		  
 		  ActionDriver driver1 = new ActionDriver();
 		  driver1.waitUntilVisibilityOfElement(PatientLogin.signLnk, 1000);
 		  driver1.click(PatientLogin.signLnk);

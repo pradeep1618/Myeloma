@@ -8,11 +8,8 @@
     <classes>
       <class name="testCases.TC001"/>
       <class name="testCases.TC002"/>
-      <class name="testCases.TC003"/>
      
      </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->
-            
-
             

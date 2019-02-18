@@ -27,10 +27,10 @@ public class Ext {
 		extent = new ExtentReports();
 		extent.attachReporter(htmlreporter);
 		
-		extent.setSystemInfo("Operating System", "Windows 10");
+		extent.setSystemInfo("Operating Syatem", "Windows 10");
 		extent.setSystemInfo("Environment", "Staging Server");
 		
-		htmlreporter.config().setReportName("HealthTree Myeloma Application Test Results");
+		htmlreporter.config().setReportName("LifeShareCare Application Test Results");
 		htmlreporter.config().setTheme(Theme.DARK);
 	}
 	

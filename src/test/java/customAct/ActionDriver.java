@@ -1,5 +1,6 @@
 package customAct;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import config.Browser;
 
 public class ActionDriver {
@@ -111,7 +114,27 @@ public class ActionDriver {
 		
 	}
 	
-
+	/**
+	 * Generates 8 character length text
+	 * @param text - what type of character do you want 
+	 * Examp 1 -- abc for alphabets
+	 * Examp 2 --123 for numbers
+	 */
+	public void randomChar(String text){
+		String alphabet = text;
+		String s = RandomStringUtils.random(8, alphabet);
+	}
+	
+	/**
+	 * Generates 10 digit random numbers 
+	 * @param intr -- enter only INTIGERS
+	 * Examp -- 123
+	 */
+	public void randomNum(String intr){
+		String alphabet = intr;
+		String s = RandomStringUtils.random(10, alphabet);
+	}
+	
 	/**
 	 * Waits until the pageloads
 	 */

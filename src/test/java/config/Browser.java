@@ -5,6 +5,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -16,10 +17,15 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import commonFun.Login;
+
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Browser {
@@ -32,10 +38,10 @@ public class Browser {
 		
 		@BeforeSuite
 		public void repos(){
-			htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/Records/HealthTreeTestReport.html");
+			htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/Records/HealthTreeHtmlReports.html");
 			extent=new ExtentReports();
 			extent.attachReporter(htmlReporter);
-			extent.setSystemInfo("HealthTree", "Staging Server");
+			extent.setSystemInfo("HealthTree", "Test Environment");
 			extent.setSystemInfo("Host Name", "Pradeep K Reddy");
 			
 			htmlReporter.config().setDocumentTitle("HealthTree Test Result");
@@ -85,10 +91,12 @@ public class Browser {
   }
   
   @AfterClass
-  public void close() throws Exception
+  public void quite() throws Exception
   {
 	  extent.flush();
 	  driver.quit();
   }
- 
+
+  
+
 }
